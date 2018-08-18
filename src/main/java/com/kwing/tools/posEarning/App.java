@@ -81,7 +81,7 @@ public class App {
 			}
 			System.out.println("总存入本金总和："+sumCap);
 			System.out.println("总收益总和："+sumIntr);
-			System.out.println("本金+利息："+sumCap+sumIntr);
+			System.out.println("本金+利息："+(sumCap+sumIntr));
 		} catch (FileNotFoundException e) {
 			System.out.println("文件不存在："+csvPath);
 		}catch (IOException e) {
